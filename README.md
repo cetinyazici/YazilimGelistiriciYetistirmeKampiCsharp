@@ -1,2 +1,2 @@
 # 2024YazılımGeliştiriciYetiştirmeKampı(C#)
-* YazılımGeliştiriciYetiştirmeKampı(C#) Engin Demioğ Projeleri içermektedir.
+* 2024 Yazılım Geliştirici Yetiştirme Kampı(C#) Engin Demioğ eğitmenliğinde  Projeleri içermektedir.
