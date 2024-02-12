@@ -75,4 +75,61 @@ for (int i = 0; i < courses.Length; i++)
 }
 
 Console.WriteLine("-----------------------------");
+int number1 = 10;//20
+int number2 = 20;
+
+number1 = number2;
+number2 = 50; //bir önemi yoktur.
+
+Console.WriteLine(number1);
+Console.WriteLine(number2);
+//value types -> int, bool, double bu gruba girer.
+
+string[] cities1 = { "Ankara", "İstanbul", "İzmir" };
+string[] cities2 = { "Bursa", "Bolu", "Diyarbakır" };
+
+cities2 = cities1; //şehirler2 nini referans numarası şehirler1 e atanıyor aslında okunuşu bu şekilde
+cities1[0] = "Adana";
+
+Console.WriteLine(cities2[0]);
+Console.WriteLine(cities1[1]);
+//reference types -> string, Array, class, interface bu gruba girer.
+
+Console.WriteLine("-----------------------------");
 Console.WriteLine("Kod bitti....");
+Console.WriteLine("-----------------------------");
+
+
+IndividualCustomer customer1    = new IndividualCustomer();
+customer1.Id = 1;
+customer1.CustomerNumber = "123456";
+customer1.NationalIndentity = "12345678911";
+customer1.FirstName = "Çetin";
+customer1.LastName = "Yazıcı";
+
+IndividualCustomer customer2 = new IndividualCustomer();
+customer2.Id = 2;
+customer2.CustomerNumber = "123457"; 
+customer2.NationalIndentity = "98765432123"; 
+customer2.FirstName = "Hüseyin"; 
+customer2.LastName = "Kurt"; 
+
+CoorporateCustomer customer3 = new CoorporateCustomer();
+customer3.Id = 3;
+customer3.Name = "kodlamaio";
+customer3.CustomerNumber = "96385";
+customer3.TaxNumber = "12345678987";
+
+CoorporateCustomer customer4 = new CoorporateCustomer();
+customer4.Id = 4;
+customer4.Name = "koddankazan";
+customer4.CustomerNumber = "96389";
+customer4.TaxNumber = "12345678988";
+
+BaseCustomer[] customers = {customer1, customer2, customer3, customer4};
+
+//polymorphism->poliformizim
+foreach (BaseCustomer item in customers)
+{
+    Console.WriteLine(item.CustomerNumber);
+}

@@ -12,3 +12,4 @@ C:\Users\Lenovo\Desktop\YazılımGeliştiriciYetiştirmeKampı(C#)\Intro\Intro\o
 C:\Users\Lenovo\Desktop\YazılımGeliştiriciYetiştirmeKampı(C#)\Intro\Intro\obj\Debug\net8.0\Intro.pdb
 C:\Users\Lenovo\Desktop\YazılımGeliştiriciYetiştirmeKampı(C#)\Intro\Intro\obj\Debug\net8.0\Intro.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\YazılımGeliştiriciYetiştirmeKampı(C#)\Intro\Intro\obj\Debug\net8.0\ref\Intro.dll
+C:\Users\Lenovo\Desktop\YazılımGeliştiriciYetiştirmeKampı(C#)\Intro\Intro\obj\Debug\net8.0\Intro.sourcelink.json
