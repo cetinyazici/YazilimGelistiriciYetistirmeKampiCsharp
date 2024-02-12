@@ -1,4 +1,5 @@
-﻿using Intro.Entities;
+﻿using Intro.DataAccess.Concretes;
+using Intro.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,8 +39,11 @@ public class CourseManager
     //    courses[1]=course2;
     //    courses[2]=course3;
     //}
-    public Course[] GetAll()
+    public List<Course> GetAll()
     {
-        return courses;
+        //business rules
+
+        CourseDal courseDal = new CourseDal();
+        return courseDal.GetAll();
     }
 }
