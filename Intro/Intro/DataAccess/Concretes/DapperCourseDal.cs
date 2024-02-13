@@ -21,13 +21,13 @@ public class DapperCourseDal: ICourseDal
 
         Course course2 = new Course();
         course2.Id = 2;
-        course2.Name = "JAVA";
+        course2.Name = "Deneme2";
         course2.Description = "JAVA 17 ...";
         course2.Price = 10;
 
         Course course3 = new Course();
         course3.Id = 3;
-        course3.Name = "PYTHON";
+        course3.Name = "Deneme3";
         course3.Description = "PYTHON 3.12 ...";
         course3.Price = 20;
 
