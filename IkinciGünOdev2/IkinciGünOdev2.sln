@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RerefanceTypes", "Rerefance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{9666AAE9-CA55-4435-B019-17FC10862D27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{492E1C23-23F9-4D72-83E7-437731AC3935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9666AAE9-CA55-4435-B019-17FC10862D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9666AAE9-CA55-4435-B019-17FC10862D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9666AAE9-CA55-4435-B019-17FC10862D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492E1C23-23F9-4D72-83E7-437731AC3935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492E1C23-23F9-4D72-83E7-437731AC3935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492E1C23-23F9-4D72-83E7-437731AC3935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492E1C23-23F9-4D72-83E7-437731AC3935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
