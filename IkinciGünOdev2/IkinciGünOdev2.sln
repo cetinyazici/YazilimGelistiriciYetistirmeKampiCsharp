@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RerefanceTypes", "RerefanceTypes\RerefanceTypes.csproj", "{E6CC6608-0E31-4BBB-836C-33C6E7CEFD3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6CC6608-0E31-4BBB-836C-33C6E7CEFD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CC6608-0E31-4BBB-836C-33C6E7CEFD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CC6608-0E31-4BBB-836C-33C6E7CEFD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CC6608-0E31-4BBB-836C-33C6E7CEFD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8D95B57-EC82-4177-A127-0E81716905E4}
+	EndGlobalSection
+EndGlobal
