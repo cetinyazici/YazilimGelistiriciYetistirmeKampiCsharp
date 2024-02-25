@@ -1,13 +1,4 @@
-using Persistence;
-
 var builder = WebApplication.CreateBuilder(args);
-
-//builder.Services.AddControllers();
-//builder.Services.AddApplicationServices();
-//builder.Services.AddSecurityServices();
-builder.Services.AddPersistenceServices(builder.Configuration);
-//builder.Services.AddInfrastructureServices();
-//builder.Services.AddHttpContextAccessor();
 
 // Add services to the container.
 
@@ -24,6 +15,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
