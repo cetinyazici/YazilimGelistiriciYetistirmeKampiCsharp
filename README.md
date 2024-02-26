@@ -15,4 +15,12 @@
 - Ödev 1 => IkinciGünOdev1
 - Ödev 2 => IkinciGünOdev2
 - Ödev 3 => IkinciGünOdev3
-- Ödev 4 => ----------------
+- Ödev 4 => IkinciGünOdev4
+
+### 3.Gün
+
+- 3.Gün Sonu Kayıt =>  WebApi
+- Ödev 1 => -----------
+- Ödev 2 => -----------
+
+
